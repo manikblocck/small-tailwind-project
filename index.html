@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>learn tailwindcss</title>
+    <title>learn tailwindcss</title><link rel="stylesheet" href="style.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
-<body>
-    
+<body class="font-myFont relative bg-bg-color">
+
+    <header id="header" class="fixed w-full left-0 bottom-0 h-16 bg-gradient-to-r from-indigo-900 to-emerald-900">
+       <nav id="maimMenu">
+        <ul class="text-center">
+            <li class="active inline-block">
+                <a class="block px-4 py-4 text-white text-xl font-semibold transition-all hover:bg-primary-colar hover:text-black" href="#home">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="hidden md:inline-block">Home</span>
+                </a>
+            </li>
+
+            <li class="active inline-block">
+                <a class="block px-4 py-4 text-white text-xl font-semibold transition-all hover:bg-primary-colar hover:text-black" href="#about">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="hidden md:inline-block">About</span>
+                </a>
+            </li>
+
+            <li class="active inline-block">
+                <a class="block px-4 py-4 text-white text-xl font-semibold transition-all hover:bg-primary-colar hover:text-black" href="#service">
+                    <i class="fa-solid fa-user-gear"></i>
+                    <span class="hidden md:inline-block">Service</span>
+                </a>
+            </li>
+
+            <li class="active inline-block">
+                <a class="block px-4 py-4 text-white text-xl font-semibold transition-all hover:bg-primary-colar hover:text-black" href="#contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span class="hidden md:inline-block">Contact</span>
+                </a>
+            </li>
+
+        </ul>
+       </nav> 
+
+    </header>
+ 
 </body>
 </html>
